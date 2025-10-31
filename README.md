@@ -1,9 +1,10 @@
-# 🔒 GuardianCrypt: Military-Grade File Encryption
+# 🔒 [GuardianCrypt]: Military-Grade File Encryption
 
-GuardianCrypt is a fast, secure, and user-friendly web application for encrypting and decrypting files using military-grade **AES-256 GCM** cryptography. It operates on a **zero-knowledge** principle, meaning your password and file data are processed securely without being stored or logged on the server.
+[GuardianCrypt] is a fast, secure, and user-friendly web application for encrypting and decrypting files using military-grade **AES-256 GCM** cryptography. It operates on a **zero-knowledge** principle, meaning your password and file data are processed securely without being stored or logged on the server.
 
 The application is built with a modern **Next.js** (App Router) frontend and a lightweight, high-performance **Python Flask** backend.
 
+Demo: [GuardianCrypt]
 ---
 
 ## ✨ Features
@@ -18,7 +19,7 @@ The application is built with a modern **Next.js** (App Router) frontend and a l
 
 ## 🏗️ Architecture
 
-GuardianCrypt is a mono-repo structure split into two main services:
+[GuardianCrypt] is a mono-repo structure split into two main services:
 
 1.  **`frontend/` (Next.js):** The user interface, built with Next.js (TypeScript) and Tailwind CSS, providing a seamless file upload, password entry, and download experience. It acts as a proxy for the backend API calls.
 2.  **`backend/` (Python/Flask):** A minimalist Flask API that handles the core cryptographic operations using the `cryptography` library.
@@ -121,3 +122,5 @@ The encrypted file format is a concatenation of these components: `[16-byte SALT
 Contributions are welcome\! Feel free to open issues or submit pull requests for bug fixes, new features, or improvements.
 
 **License:** *MIT*
+
+[GuardianCrypt]: https://guardian-crypt-project.vercel.app/
